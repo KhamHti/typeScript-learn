@@ -19,4 +19,4 @@ function getHero () {
 }
 hero=getHero();
 
-export{}
+// export{}

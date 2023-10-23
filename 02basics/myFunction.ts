@@ -12,9 +12,9 @@ function getUpper(val: string){
 
 console.log(getUpper("hello3"))
 
-function signUpUser(name: string, email: string, isPaid: boolean){}
+function signUpUser(name: string, email: string, isPaid: boolean = false){}
 signUpUser("kang", "kand@ae.com", true)
-console.log(signUpUser("kand", "kann@gmail.com", true))
+console.log(signUpUser("kand", "kann@gmail.com"))
 
 
 function loginUser(name: string,email: string, isPaid: boolean = false){
@@ -50,4 +50,4 @@ function handleError(errmsg: string): never{
     throw new Error(errmsg)
 }
 
-export{}
+// export{}
