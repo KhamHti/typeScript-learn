@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var tester = {
     name: "kham",
     email: "kham@kham.com",
@@ -14,3 +16,8 @@ function createCourse() {
 var createToken = function () {
     return { name: 'guestAuth', id: 123123123, age: 30 };
 };
+function createUser(user) {
+    return { name: '', age: 12, isActive: false };
+}
+createUser({ name: '', age: 15, isActive: true });
+
